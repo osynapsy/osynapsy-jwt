@@ -1,0 +1,24 @@
+{
+    "name": "osynapsy/osynapsy-jwt",
+    "version": "1.0",
+    "homepage": "http://www.osynapsy.net/jwt",
+    "type": "library",
+    "description": "Json web token library",
+    "keywords": ["Osynapsy", "Jwt library"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pietro Celeste",
+            "email": "p.celeste@osynapsy.net",
+            "homepage": "https://github.com/osynapsy/osynapsy-jwt/wiki"
+        }
+    ],
+    "require": {
+        "php" : ">=7.2.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Osynapsy\\Jwt\\": "src/Osynapsy/Jwt"
+        }
+    }
+}
