@@ -17,4 +17,24 @@ class JwtException extends \Exception
     {
         parent::__construct($message, $code, $previous);
     }
+
+    public function setMessage($message)
+    {
+        $this->message = $message;
+    }
+
+    public function setCode($code)
+    {
+        $this->code = $code;
+    }
+
+    public function setInfoMessage($message)
+    {
+        $this->submessage = $message;
+    }
+
+    public function getInfoMessage()
+    {
+        return $this->submessage;
+    }
 }
